@@ -1,17 +1,39 @@
+# Ignore CMake-generated build files and artifacts
+/build/
+/bin/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+/Makefile2
+/compile_commands.json
+/CTestTestfile.cmake
+/Testing/
+/InstallScripts.json
+
+# Ignore CMake external/dependency build directories (googletest, etc.)
+/_deps/
+/_deps/**
+/googletest-build/
+/googletest-src/
+/googletest-subbuild/
+
+# Ignore compiled libraries and object files
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.lib
+*.exe
+*.dll
+*.dSYM/
+
+# Ignore common IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
 # macOS
 .DS_Store
-
-# Build folder
-/build/
-
-# VS Code settings
-.vscode/
-
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-Makefile
-cmake_install.cmake
-
-# gtest dependency
-_deps
