@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Build folder
+/build/
+
+# VS Code settings
+.vscode/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
