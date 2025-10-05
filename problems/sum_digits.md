@@ -1,4 +1,4 @@
-# Sum Digits — Coding Challenge
+# 01 - Sum of Digits
 
 ## Problem
 Write a function `sum_digits` that returns the sum of the decimal digits of a non-negative integer.
@@ -14,8 +14,6 @@ int sum_digits(int n);
 - [Header: include/sum_digits.h](../include/sum_digits.h)
 - [Implementation: src/sum_digits.cpp](../src/sum_digits.cpp)
 - [Tests: tests/test_sum_digits.cpp](../tests/test_sum_digits.cpp)
-- [Build script: build_and_run.sh](../build_and_run.sh)
-- [Project CMakeLists.txt](../CMakeLists.txt)
 
 ## Examples
 

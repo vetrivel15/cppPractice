@@ -28,11 +28,12 @@ set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 
 # Library
-add_library(sum_lib src/sum_digits.cpp)
+file(GLOB SRC_FILES "src/*.cpp")
+add_library(sum_lib ${SRC_FILES})
 
 # Test executable
-# Link with gtest_main instead of gtest
-add_executable(runTests tests/test_sum_digits.cpp)
+file(GLOB TEST_FILES "tests/*.cpp")
+add_executable(runTests ${TEST_FILES})
 target_link_libraries(runTests PRIVATE sum_lib GTest::gtest_main)
 
 # Enable testing
