@@ -2,7 +2,7 @@
 
 Use this file as a starting point when adding a new coding challenge to the repository. Copy the contents into a new file in this directory (for example: `problems/my_challenge.md`) and fill in the placeholders.
 
-# <Challenge Title> — Short subtitle
+## Challenge Title — Short subtitle
 
 ## Problem
 Brief description of the problem and expected behavior.
